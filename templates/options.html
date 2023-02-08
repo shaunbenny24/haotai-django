@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>options</title>
+
+    {% load static%}
+    <link rel="stylesheet" href="{% static  'style.css'%}">
+</head>
+<body>
+    <section class="menubar">
+        <div class="menuclick">
+            <img src="../static/images/logo 1.png" alt="">
+            <a href="{%url 'home'%}">Home</a>
+            <a href="{%url 'about'%}">About</a>
+            <a href="{%url 'emp'%}">Jobs</a>
+            <a href="{%url 'home'%}">Benefits</a>
+            <a href=""><img src="../static/images/Frame 2.png" alt=""></a>
+        </div>
+        <div class="follow">
+            <p>Follow us on</p>
+            <div class="mediaicon">
+                <a href=""><img src="../static/images/instagram.png" alt=""></a>
+                <a href=""><img src="../static/images/Vector.png" alt=""></a>
+                <a href=""><img src="../static/images/Vector(1).png" alt=""></a>
+                <a href=""><img src="../static/images/mail.png" alt=""></a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
